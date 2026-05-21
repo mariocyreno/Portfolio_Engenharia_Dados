@@ -1,2 +1,2 @@
-teste, alteração do nome do aqruivo git
+Testando, alteração do nome do aqruivo git
 Realizado a troca de 00-projeto para Portfolio_Engenharia_Dados
