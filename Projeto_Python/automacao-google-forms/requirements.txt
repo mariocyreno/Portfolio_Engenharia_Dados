@@ -1,4 +1,4 @@
-pandas
-pyodbc
+selenium
+chromedriver-autoinstaller
 python-dotenv
-schedule
+pandas

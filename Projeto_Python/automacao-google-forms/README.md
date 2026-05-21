@@ -1,22 +1,19 @@
-# ETL de Clientes: CSV para SQL Server
+# Automação de Preenchimento de Google Forms 🤖
 
-Este projeto é um script automatizado de ETL desenvolvido em Python. Ele extrai dados de clientes de um arquivo CSV, realiza tratamentos e limpezas (substituição de valores nulos, conversão de datas e formatação de strings) e carrega os dados em um banco de dados SQL Server. 
-
-O script foi configurado para rodar de forma contínua em segundo plano, atualizando o banco de dados em intervalos programados.
+Este projeto é um script de automação web (RPA) desenvolvido em Python. Ele utiliza a biblioteca Selenium para ler dados de uma base local em CSV (tratada com Pandas) e preencher, de forma automática e sequencial, um formulário do Google Forms.
 
 ## 🛠️ Tecnologias Utilizadas
 
 * **Python 3**
-* **Pandas:** Para manipulação e tratamento dos dados.
-* **PyODBC:** Para conexão e execução de comandos no SQL Server.
-* **Schedule:** Para agendamento da execução do script.
-* **Python-dotenv:** Para gerenciamento seguro de credenciais via variáveis de ambiente.
+* **Selenium:** Para automação e controle do navegador web (Google Chrome).
+* **Chromedriver-autoinstaller:** Para gerenciamento automático do driver do navegador.
+* **Pandas:** Para extração e leitura dos dados do arquivo CSV.
+* **Python-dotenv:** Para ocultar e gerenciar URLs e caminhos de arquivos de forma segura.
 
 ## ⚙️ Pré-requisitos
 
-Antes de rodar o projeto, você precisará ter instalado na sua máquina:
-1. Python 3.x
-2. [ODBC Driver 17 for SQL Server](https://learn.microsoft.com/pt-br/sql/connect/odbc/download-odbc-driver-for-sql-server) (Necessário para o `pyodbc` funcionar corretamente).
+1. Python 3.x instalado.
+2. Navegador **Google Chrome** instalado na sua máquina.
 
 ## 🚀 Como instalar e rodar
 
