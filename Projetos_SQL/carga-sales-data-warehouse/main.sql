@@ -46,8 +46,7 @@ CREATE TABLE dbo.VendasDW
     Descontos         MONEY NULL
 );
 
-INSERT INTO dbo.VendasDW
-(
+INSERT INTO dbo.VendasDW(
     Data,
     IdVenda,
     IdCategoria,
@@ -75,7 +74,6 @@ SELECT
     Vendas_Total,
     Descontos
 FROM SalesStage.dbo.VendasStage;
-
 PRINT 'Carga da tabela VendasDW concluída.';
 
 
