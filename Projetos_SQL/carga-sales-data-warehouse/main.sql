@@ -21,7 +21,6 @@ GO
 
 BEGIN TRANSACTION;
 
-
 /*=============================================================================
     1. FATO VENDAS
     Origem: SalesStage.dbo.VendasStage
