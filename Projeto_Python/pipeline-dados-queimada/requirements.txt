@@ -1,0 +1,6 @@
+# Projeto executado no Databricks Runtime.
+# PySpark já vem instalado no runtime do cluster.
+# Este arquivo documenta a dependência e permite reproduzir o ambiente localmente.
+# Não há dependências Python adicionais a instalar.
+
+pyspark>=3.5.0
