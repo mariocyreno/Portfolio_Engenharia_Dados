@@ -1,0 +1,9 @@
+# Este projeto foi desenvolvido para execução em notebooks Databricks.
+# PySpark/Spark SQL e o suporte a Delta Lake são fornecidos pelo Databricks Runtime.
+# Não instale outra versão de pyspark no cluster Databricks, pois ela pode conflitar
+# com a versão do Spark disponibilizada pelo runtime.
+#
+# Portanto, não há dependências Python adicionais necessárias para os notebooks descritos.
+# Para execução local, prepare uma instalação Apache Spark/PySpark compatível com a
+# versão de Spark desejada e adapte recursos específicos do Databricks (por exemplo,
+# Unity Catalog, caminhos /Volumes/... e células mágicas %sql).
