@@ -1,3 +1,0 @@
-d = 'Teste'
-
-print(d)
